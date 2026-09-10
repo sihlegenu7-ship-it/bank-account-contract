@@ -66,3 +66,6 @@ Screenshot showing the BankAccount console application running successfully.
 
 ### Savings Account
 ![Savings Account](images/savings-account-menu.png)
+
+### Navigation Menu
+![Application Navigation](images/improve-navigation-menu.png)
