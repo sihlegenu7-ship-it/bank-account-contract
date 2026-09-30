@@ -1,5 +1,6 @@
-using System;
 using System.Diagnostics;
+
+namespace BankAccountContract;
 
 public class BankAccount
 {

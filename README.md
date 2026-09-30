@@ -41,21 +41,33 @@ Rules that must always remain true:
 - Visual Studio Code
 - Git & GitHub
 
+## Project Structure
+
+```text
+bank-account-contract/
+├── BankAccountContract.sln
+├── README.md
+├── images/
+└── src/
+    └── BankAccountContract/
+        ├── BankAccount.cs
+        ├── BankAccountContract.csproj
+        ├── CurrentAccount.cs
+        ├── IBankAccount.cs
+        ├── Program.cs
+        └── SavingsAccount.cs
+```
+
 ## How to Run
 
-Clone the repository:
+From the project root:
 
 ```bash
-git clone https://github.com/sihle902/BankAccountContract.git
+dotnet build BankAccountContract.sln
 
-Navigate into the project folder:
-```bash
-cd BankAccountContract
+dotnet run --project src/BankAccountContract/BankAccountContract.csproj
 ```
-Run the application:
-```bash
-dotnet run
-```
+
 ## Application Demo
 
 Screenshot showing the BankAccount console application running successfully.

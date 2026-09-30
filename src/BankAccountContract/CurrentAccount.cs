@@ -1,3 +1,5 @@
+namespace BankAccountContract;
+
 public class CurrentAccount : BankAccount, IBankAccount
 {
     public CurrentAccount(decimal initialBalance)
